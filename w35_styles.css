@@ -5,7 +5,13 @@ body {
 	color: white;
 }
 
-h2 {
+.h2_a {
+	color: white;
+	text-align: center;
+	text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.h2_b {
 	color: white;
 	text-align: center;
 }
