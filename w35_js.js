@@ -6,7 +6,7 @@ const videoContainer = document.getElementById('video-container');
 const videoUrl = 'https://www.youtube.com/embed/sDt-DNuFzcs?autoplay=1&controls=0&loop=1&mute=1';
 
 // Set the video container as the background
-videoContainer.innerHTML = `<iframe width="100%" height="100%" src="${videoUrl}" frameborder="0" allowfullscreen></iframe>`;
+videoContainer.innerHTML = `<iframe width="100%" height="100%" src="${videoUrl}" frameborder="0" allow="accelerometer; autoplay; modestbranding; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
 
 // Adjust the height of the video section based on the video's aspect ratio
 function resizeVideoSection() {
