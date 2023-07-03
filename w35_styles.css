@@ -2,9 +2,6 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: Arial, sans-serif;
-	background-image: url("../w35_inside.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
 	color: white;
 }
 
@@ -15,6 +12,7 @@ h2 {
 
 #contact {
 	color: white;
+	background-color: #000;
 }
 
 .social-links i {
@@ -41,7 +39,7 @@ h2 {
 	display: block;
 	width: 100%;
 	padding: 10px 20px;
-	background-color: transparent;
+	/*background-color: transparent; */
 	border: 2px solid #fff; /* #80390A; */
 	color: #fff;
 	font-weight: bold;
@@ -49,6 +47,7 @@ h2 {
 	text-decoration: none;
 	white-space: nowrap;
 	margin: 5px;
+	background-color: rgba(49, 49, 49, 0.9);
 }
 
 .mybuttonstyle:hover {
@@ -63,11 +62,18 @@ h2 {
 	padding: 20px;
 }
 
-.section {
+.section2 {
   padding: 40px 0;
 }
 
 /* Section 1 Styles */
+.section1 {
+	padding: 40px 0;
+ 	background-image: url("./w35_inside.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .logo {
   width: 30%;
   margin: 0 auto;
@@ -121,4 +127,10 @@ h2 {
 	.mybuttonstyle li {
 		font-size: 20px;
 	}
+}
+
+.contact-info li a {
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
 }
